@@ -102,6 +102,8 @@ class eda:
 
         Returns:
             None
+        Description:
+            - This graph shows how many citywide_count distributed with engagement category.
 
         """
         # Set Seaborn style and color palette
