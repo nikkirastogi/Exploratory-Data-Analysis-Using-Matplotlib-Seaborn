@@ -34,7 +34,7 @@ class eda:
         # Count the frequency of each age group
         age_group_counts = self.data['AGE_GROUP'].value_counts()
 
-       # Creating a bar plot
+        # Creating a bar plot
         plt.figure(figsize=(8, 6))
         age_group_counts.plot(kind='bar', color='blue', edgecolor='black')
 
