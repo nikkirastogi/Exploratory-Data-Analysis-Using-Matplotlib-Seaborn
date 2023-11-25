@@ -52,6 +52,9 @@ class eda:
              sns.countplot() to create a bar plot for age groups. The x-axis represents the age groups, and the y-axis represents the counts or frequencies of each age                    group.
         return:
             plot bar graph
+            
+        Description:
+            - This graph shows the how many number of people in specific age group.
         """
         plt.figure(figsize=(8, 6))
         sns.countplot(data=self.data, x='AGE_GROUP', color='blue')
